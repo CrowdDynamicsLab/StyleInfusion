@@ -1,8 +1,14 @@
-# Style Infusion Repository
+# Style Infusion
+
+This repository contains the training and testing codes for Audience-Centric Natural Language Generation via Style Infusion, which aims to infuse audience-centric styles (e.g. persuasion, memorability, etc.) into pretrained language generation models.
+
+If this code helps you in your research, please cite the following publication (BibTeX at the bottom of the README):
+
+> Moorjani, Samraj, et al. "Audience-Centric Natural Language Generation via Style Infusion." Findings of the Association for Computational Linguistics: EMNLP. ACL, 2022.
 
 ![Style Infusion Architecture](./data/Architecture.png)
 
-This is the source code for our EMNLP submissions. Within this repository are 5 sub-folders:
+This is the source code for our Style Infusion framework. Within this repository are 5 sub-folders:
 1. `bayesian_correlations`: this sub-repo is responsible for computing the correlations between a style and linguistic features. 
 2. `data_feature_extraction`: this sub-repo is responsible for extracting the linguistic features from given text
 3. `style_classifier`: this sub-repo is responsible for training the discriminator and 
@@ -24,8 +30,6 @@ We support reading from all datasets except the CNN/DM which is handled by the H
 ## Quickstart
 
 For each sub-repo (except for `bayesian_correlations`), we also include a `.sh` file for ease of replication. Note that you may have to change parameters inside the `.sh` file and also pass in the correct location of you data/trained models if you change the structure. 
-
-Also, some of the `README.md` files may mention files that do not exist. This is because they contained information that would violate EMNLP's anonymous submission policy. 
 
 We provide step-by-step instructions as follows:
 
@@ -71,9 +75,29 @@ Note that the SVC features refer to speed, volume, and circuitousness (Toubia et
 
 This should produce a correlations file which will show you the individual correlations between a feature and a style.
 
-## Reproducability Checklist
+## Reproducability
 
 - The model takes approximately 10 hours to run 10,000 steps on 2 V100's with 32 GB of memory (run with DeepSpeed and FP16 training).
 - The number of parameters is 110M (bert-base-uncased) + 117M (GPT2) + 768 (FC layer) = ~227M
 - There is only one hyperparameter we search (beta) which ranges from 0 to 1. We run trials for 4 values of beta (0.1, 0.5, 0.8, and 1.0).
--
+
+## Citation
+
+The BibTeX citation is also attached:
+
+```
+@inproceedings{moorjani-etal-2022-style-infusion,
+    title = "Audience-Centric Natural Language Generation via Style Infusion",
+    author = "Moorjani, Samraj  and
+      Krishnan, Adit  and
+      Sundaram, Hari  and
+      Maslowska, Ewa  and
+      Sankar, Aravind",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    abstract = "Adopting contextually appropriate, audience- tailored linguistic styles is critical to the success of user-centric language generation systems (e.g., chatbots, computer-aided writing, dialog systems). While existing approaches demon- strate text style transfer (TST) with large vol- umes of parallel or non-parallel data, we argue that grounding style on audience-independent external factors is innately limiting for two rea- sons. First, it is difficult to collect large vol- umes of audience-specific stylistic data. Sec- ond, some stylistic objectives (e.g., persuasive- ness, memorability, empathy) are hard to define without audience feedback. In this paper, we propose the novel task of style infusion - infusing the stylistic prefer- ences of audiences in pretrained language gen- eration models. Since humans are better at pairwise comparisons than direct scoring - i.e., is Sample-A more persuasive/polite/empathic than Sample-B, we leverage limited pairwise human judgments to bootstrap a style analysis model and augment our seed set of judgments. We then infuse the learned textual style in a GPT-2 based text generator while balancing flu- ency and style adoption. With quantitative and qualitative assessments, we show that our infu- sion approach can generate compelling stylized examples with generic text prompts. The code and data are accessible at \url{https://github.com/CrowdDynamicsLab/StyleInfusion}.",
+}
+```
