@@ -1,0 +1,6 @@
+argparse
+numpy
+torch>=1.4.0
+transformers>=4.6.0
+sentence-transformers
+sklearn

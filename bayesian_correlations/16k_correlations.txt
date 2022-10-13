@@ -1,0 +1,161 @@
+!, <xarray.DataArray 'γ_var' ()>
+array(0.04880898, dtype=float32)
+., <xarray.DataArray 'γ_var' ()>
+array(-0.3266924, dtype=float32)
+?, <xarray.DataArray 'γ_var' ()>
+array(0.05009987, dtype=float32)
+CARDINAL, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+Certainty, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+DATE, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+EVENT, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+FAC, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+GPE, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+Generalizing, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+LANGUAGE, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+LOC, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+MONEY, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+Modal, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+NORP, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+ORDINAL, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+ORG, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+PERCENT, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+PERSON, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+PRODUCT, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+QUANTITY, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+TIME, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+Tentative, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+WORK_OF_ART, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+adjective_rate, <xarray.DataArray 'γ_var' ()>
+array(-0.0090433, dtype=float32)
+adposition_rate, <xarray.DataArray 'γ_var' ()>
+array(-0.0852843, dtype=float32)
+adverb_rate, <xarray.DataArray 'γ_var' ()>
+array(0.05666771, dtype=float32)
+alliteration_score, <xarray.DataArray 'γ_var' ()>
+array(0.14537849, dtype=float32)
+auxiliary_rate, <xarray.DataArray 'γ_var' ()>
+array(0.13252008, dtype=float32)
+average_dependencies, <xarray.DataArray 'γ_var' ()>
+array(-0.1272215, dtype=float32)
+average_dependency_distance, <xarray.DataArray 'γ_var' ()>
+array(-0.19122349, dtype=float32)
+brunet_index, <xarray.DataArray 'γ_var' ()>
+array(-0.88797474, dtype=float32)
+circuitousness, <xarray.DataArray 'γ_var' ()>
+array(0.02349351, dtype=float32)
+closed_class_word_rate, <xarray.DataArray 'γ_var' ()>
+array(-0.08369786, dtype=float32)
+conjunction_rate, <xarray.DataArray 'γ_var' ()>
+array(-0.18018706, dtype=float32)
+content_density, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+dalechall_score, <xarray.DataArray 'γ_var' ()>
+array(-0.12823266, dtype=float32)
+demonstrative_rate, <xarray.DataArray 'γ_var' ()>
+array(0.06569494, dtype=float32)
+determiner_rate, <xarray.DataArray 'γ_var' ()>
+array(-0.12091789, dtype=float32)
+flesch_score, <xarray.DataArray 'γ_var' ()>
+array(0.61393195, dtype=float32)
+fleschkincaid_score, <xarray.DataArray 'γ_var' ()>
+array(-0.49713263, dtype=float32)
+future, <xarray.DataArray 'γ_var' ()>
+array(0.05494743, dtype=float32)
+gunningfog_score, <xarray.DataArray 'γ_var' ()>
+array(-0.34636027, dtype=float32)
+honore_statistic, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+idea_density, <xarray.DataArray 'γ_var' ()>
+array(-0.09435633, dtype=float32)
+interjection_rate, <xarray.DataArray 'γ_var' ()>
+array(0.3024677, dtype=float32)
+is_passive, <xarray.DataArray 'γ_var' ()>
+array(-0.2697785, dtype=float32)
+jargon, <xarray.DataArray 'γ_var' ()>
+array(0.572557, dtype=float32)
+length, <xarray.DataArray 'γ_var' ()>
+array(-0.8737976, dtype=float32)
+mispelled, <xarray.DataArray 'γ_var' ()>
+array(0.28359762, dtype=float32)
+noun_rate, <xarray.DataArray 'γ_var' ()>
+array(-0.19912568, dtype=float32)
+noun_ratio, <xarray.DataArray 'γ_var' ()>
+array(-0.07758556, dtype=float32)
+noun_verb_ratio, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+numeral_rate, <xarray.DataArray 'γ_var' ()>
+array(-0.05487949, dtype=float32)
+open_class_word_rate, <xarray.DataArray 'γ_var' ()>
+array(-0.04174594, dtype=float32)
+particle_rate, <xarray.DataArray 'γ_var' ()>
+array(0.01352485, dtype=float32)
+past, <xarray.DataArray 'γ_var' ()>
+array(0.23789039, dtype=float32)
+possessive_rate, <xarray.DataArray 'γ_var' ()>
+array(0.13360165, dtype=float32)
+present, <xarray.DataArray 'γ_var' ()>
+array(0.82740855, dtype=float32)
+pronoun_noun_ratio, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+pronoun_rate, <xarray.DataArray 'γ_var' ()>
+array(0.20348021, dtype=float32)
+prop_auxiliary_verbs, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+prop_gerund_verbs, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+prop_inflected_verbs, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+prop_participles, <xarray.DataArray 'γ_var' ()>
+array(0.1633634, dtype=float32)
+proper_noun_rate, <xarray.DataArray 'γ_var' ()>
+array(0.09216003, dtype=float32)
+punctuation_rate, <xarray.DataArray 'γ_var' ()>
+array(-0.06738994, dtype=float32)
+smog_score, <xarray.DataArray 'γ_var' ()>
+array(-0.41983724, dtype=float32)
+speed, <xarray.DataArray 'γ_var' ()>
+array(0.891362, dtype=float32)
+subordinating_conjunction_rate, <xarray.DataArray 'γ_var' ()>
+array(0.03665902, dtype=float32)
+syllables, <xarray.DataArray 'γ_var' ()>
+array(-0.5547543, dtype=float32)
+symbol_rate, <xarray.DataArray 'γ_var' ()>
+array(0.03965124, dtype=float32)
+total_dependencies, <xarray.DataArray 'γ_var' ()>
+array(-0.8206254, dtype=float32)
+total_dependency_distance, <xarray.DataArray 'γ_var' ()>
+array(-0.8052324, dtype=float32)
+type_token_ratio, <xarray.DataArray 'γ_var' ()>
+array(0.77061546, dtype=float32)
+verb_rate, <xarray.DataArray 'γ_var' ()>
+array(0.00603222, dtype=float32)
+volume, <xarray.DataArray 'γ_var' ()>
+array(0.8961798, dtype=float32)
+word_length, <xarray.DataArray 'γ_var' ()>
+array(-0.36602503, dtype=float32)
+sentiment_label, <xarray.DataArray 'γ_var' ()>
+array(-0.2131413, dtype=float32)
+sentiment_score, <xarray.DataArray 'γ_var' ()>
+array(0.03761157, dtype=float32)
+

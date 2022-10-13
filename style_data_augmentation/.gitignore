@@ -1,0 +1,8 @@
+embs/
+sims/
+*.txt
+*.bz2
+*.out
+
+__pycache__/*
+.ipynb_checkpoints/*

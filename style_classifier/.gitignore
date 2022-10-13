@@ -1,0 +1,11 @@
+cornell_movie_quotes_corpus/
+16k_persuasiveness/
+
+*.pth
+logs/
+dist/
+*.egg-info/
+__pycache__/
+build/
+
+*/stanza_resources/*
