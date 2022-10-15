@@ -1,0 +1,23 @@
+*/__pycache__/*
+
+# data files
+*.vec
+*.zip
+*.char
+dataset/
+persuasive_pairs_data_*.txt
+vocab.txt
+
+# pytorch save files
+*.pt
+*.pth
+*.th
+
+test_trainer/
+tmp_trainer/
+generations/
+
+*.out
+training_logs/
+evaluation_log
+log.txt
