@@ -75,7 +75,7 @@ Note that the SVC features refer to speed, volume, and circuitousness (Toubia et
 
 This should produce a correlations file which will show you the individual correlations between a feature and a style.
 
-## Reproducability
+## Reproducibility
 
 - The model takes approximately 10 hours to run 10,000 steps on 2 V100's with 32 GB of memory (run with DeepSpeed and FP16 training).
 - The number of parameters is 110M (bert-base-uncased) + 117M (GPT2) + 768 (FC layer) = ~227M
@@ -83,7 +83,7 @@ This should produce a correlations file which will show you the individual corre
 
 ## Citation
 
-The BibTeX citation is also attached:
+If this code helps in your research, please cite our work. The BibTeX citation is as follows:
 
 ```
 @inproceedings{moorjani-etal-2022-style-infusion,
